@@ -1,0 +1,24 @@
+{
+    "name": "ephin/samples",
+    "description": "samples",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "ephrin",
+            "email": "vladimir.myrza@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "1.0.0",
+        "doctrine/common": "^2.6@dev",
+        "jschaedl/byte": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": [
+                "."
+            ]
+        }
+    }
+}
